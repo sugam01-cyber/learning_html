@@ -1,0 +1,127 @@
+/* ===== BASIC SETUP ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222222;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #1e3a8a;   /* dark blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;          /* makes the logo round */
+}
+
+/* ===== NAVIGATION ===== */
+nav ul {
+  list-style: none;            /* removes the bullet points */
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;       /* puts the links side by side */
+  margin: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;       /* removes the underline */
+  padding: 6px 12px;
+}
+
+nav a:hover {
+  background-color: #3b82f6;   /* light blue when mouse is over it */
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  max-width: 900px;            /* keeps the content from getting too wide */
+  margin: 0 auto;              /* centers it */
+  padding: 20px;
+  background-color: white;
+}
+
+section {
+  padding: 10px 0;
+}
+
+h2 {
+  color: #1e3a8a;
+}
+
+/* ===== PRODUCTS ===== */
+article {
+  display: inline-block;       /* puts the 3 products side by side */
+  width: 220px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* ===== TABLE ===== */
+table {
+  border-collapse: collapse;   /* joins the borders into single lines */
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #333333;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+/* ===== FORM ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 6px;
+  width: 250px;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b82f6;
+}
+
+/* ===== ASIDE ===== */
+aside {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e0e7ff;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #fbbf24;              /* yellow links */
+}
